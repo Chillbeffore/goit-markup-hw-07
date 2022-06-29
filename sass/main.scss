@@ -7,25 +7,19 @@
 @import "./components/header/nav-links";
 @import "./components/header/contacts";
 
-@import "./components/_main.scss/first-section";
-@import "./components/_main.scss/second-section";
-@import "./components/_main.scss/third-section";
-@import "./components/_main.scss/four-section";
-@import "./components/_main.scss/five-section";
-@import "./utils/vars.scss";
-@import "./utils/vars.scss";
-@import "./utils/vars.scss";
+@import "./components/main/first-section";
+@import "./components/main/second-section";
+@import "./components/main/third-section";
+@import "./components/main/four-section";
+@import "./components/main/five-section";
 
-@import "./utils/vars.scss";
-@import "./utils/vars.scss";
-@import "./utils/vars.scss";
-@import "./utils/vars.scss";
+@import "./components/footer/footer";
+@import "./components/footer/footer-links";
+@import "./components/footer/footer-social";
+@import "./components/footer/subscribe";
 
-@import "./utils/vars.scss";
-@import "./utils/vars.scss";
-@import "./utils/vars.scss";
-@import "./utils/vars.scss";
-@import "./utils/vars.scss";
-@import "./utils/vars.scss";
-@import "./utils/vars.scss";
-@import "./utils/vars.scss";
+@import "./components/portfolio/first-section";
+@import "./components/portfolio/second-section";
+
+@import "./components/modal/backdrop";
+@import "./components/modal/modal";
