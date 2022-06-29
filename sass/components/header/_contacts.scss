@@ -1,0 +1,68 @@
+.contacts-links {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+}
+.contacts-links {
+  margin: 0px;
+  padding-left: 0;
+  margin-left: auto;
+}
+.contacts-links .link-item + .link-item {
+  margin-left: 50px;
+}
+
+.link-item {
+  display: flex;
+}
+.link-item .contact-link {
+  padding: 32px 0px;
+  display: flex;
+  justify-content: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail-icon {
+  margin-right: 10px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tel-icon {
+  margin-right: 10px;
+  width: 10px;
+  height: 20px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail-icon:hover,
+.contact-link .mail-icon:focus .contact-link {
+  fill: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.contacts-links .contact-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts-links .contact-link:hover,
+.contacts-links .contact-link:focus {
+  fill: var(--accent-color);
+  color: var(--accent-color);
+}
+.contacts-links .contact-link:hover,
+.contacts-links .contact-link:focus {
+  fill: var(--accent-color);
+  color: var(--accent-color);
+}
