@@ -1,4 +1,4 @@
-.logo.link {
+.main-nav__logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
 
@@ -8,8 +8,7 @@
   display: inline-block;
 
   padding: 24px 0px 25px 0px;
-}
-
-.logo-accent {
-  color: var(--secondary-text-color);
+  &--accent {
+    color: var(--secondary-text-color);
+  }
 }

@@ -1,23 +1,22 @@
-.contacts-links {
+.conect {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   display: flex;
-}
-.contacts-links {
   margin: 0px;
   padding-left: 0;
   margin-left: auto;
 }
-.contacts-links .link-item + .link-item {
+
+.link__item + .link__item {
   margin-left: 50px;
 }
 
-.link-item {
+.lconect__link-item {
   display: flex;
 }
-.link-item .contact-link {
+.conect__contact-link {
   padding: 32px 0px;
   display: flex;
   justify-content: center;
@@ -31,6 +30,11 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  .contact-link &:focus .contact-link {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+  }
 }
 .tel-icon {
   margin-right: 10px;
@@ -39,30 +43,23 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  .contact-link &:focus .contact-link {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+  }
 }
 
-.mail-icon:hover,
-.contact-link .mail-icon:focus .contact-link {
-  fill: var(--accent-color);
-  color: var(--accent-color);
-}
-
-.contacts-links .contact-link {
+.conect__contact-link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   align-items: center;
   justify-content: center;
-}
-
-.contacts-links .contact-link:hover,
-.contacts-links .contact-link:focus {
-  fill: var(--accent-color);
-  color: var(--accent-color);
-}
-.contacts-links .contact-link:hover,
-.contacts-links .contact-link:focus {
-  fill: var(--accent-color);
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+  }
 }
